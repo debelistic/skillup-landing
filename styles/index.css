@@ -32,7 +32,7 @@ header .menu nav{
   align-items: center;
 }
 
-.no-bull {
+.no-bull, .ft-main .ft-nav {
   list-style-type: none;
  }
 
@@ -171,7 +171,7 @@ section .text{
 }
 
 .bullets-wrapper .download{
-  width: 150px;
+  width: fit-content;
   align-self: center;
   font-size: 1.4em;
   padding: 0.6em;
@@ -205,19 +205,63 @@ footer{
 footer .ft-main{
   
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: ". . .";
+  grid-template-areas: ". . . .";
 }
 
 footer .ft-logo{
   background-image: url('../imgs/ft_logo.png');
   background-repeat: no-repeat;
   background-size: 40%;
+  background-position: center;
 }
 
 footer .copy-rt{
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+
+.social li{
+  display: inline;
+  margin: 2px;
+}
+
+.social li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+.social li a i{
+  padding: 0.2em 0.3em;
+  border-radius: 0.3em;
+}
+
+.social li a i:hover{
+  /* font-size: 1.8em; */
+  background-color: #ffffff;
+}
+
+.fb:hover{
+  color: #3B5998;
+}
+
+.twt:hover{
+  color: #00acee;
+}
+
+.lnkd:hover{
+  color: #0b5e86;
+}
+
+.ig:hover{
+  color: #F77737;
+}
+
+.yt:hover{
+  color: #c4302b;
 }

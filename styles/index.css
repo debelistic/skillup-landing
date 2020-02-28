@@ -139,6 +139,17 @@ section .text{
   margin-top: 0;
 }
 
+.what-to-lnr{
+  display: flex;
+  flex-direction: column;
+}
+
+.what-to-lnr h2{
+  font-size: 2.4em;
+  color: #397588;
+  align-self: center;
+}
+
 .sub-sec{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -179,7 +190,6 @@ section .text{
 
 .bullets-wrapper h2{
   color: #397588;
-  align-self: center;
 }
 
 .bullets span.bullet-point{
@@ -264,4 +274,35 @@ footer .copy-rt{
 
 .yt:hover{
   color: #c4302b;
+}
+
+
+@media only screen and (max-width: 600px) {
+  section.landing{
+    display: block;
+    position: relative;
+    min-height: 70em;
+  }
+  
+  .main-visual{
+    /* position: absolute; */
+    top: 0;
+    height: 750px;
+    width: auto;
+  }
+
+  .landing .text{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .download{
+    align-self: center;
+    margin: 1.7em;
+  }
+
+  .text h3, .text p{
+    text-align: center;
+  }
+
 }

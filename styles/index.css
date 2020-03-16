@@ -220,7 +220,7 @@ footer .ft-main{
 }
 
 footer .ft-logo{
-  background-image: url('../imgs/ft_logo.png');
+  background-image: url('../imgs/logo_big.png');
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
@@ -240,7 +240,7 @@ footer .copy-rt{
 
 .social li a{
   text-decoration: none;
-  color: #ffffff;
+  color: #397588;
   font-weight: 600;
   font-size: 1.7em;
 }
@@ -252,7 +252,7 @@ footer .copy-rt{
 
 .social li a i:hover{
   /* font-size: 1.8em; */
-  background-color: #ffffff;
+  /* background-color: #397588; */
 }
 
 .fb:hover{
